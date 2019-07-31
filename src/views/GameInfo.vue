@@ -12,14 +12,34 @@
   <v-tab > SEPTEMBER</v-tab>
   <v-tab-item>
    <v-expansion-panels>
-      <v-expansion-panel
-        v-for="aux in matchSept"
-        :key="aux.id"
-      >
+      <v-expansion-panel v-for="aux in matchSept" :key="aux.id">
         <v-expansion-panel-header class="teams" style="font-size: 50px;"
         >{{aux.local}} vs {{aux.visit}}</v-expansion-panel-header>
         <v-expansion-panel-content>
-          Lorem
+  <v-simple-table  dark>
+    <thead>
+      <tr>
+        <th >Team</th>
+        <th >P</th>
+        <th >W</th>
+        <th >D</th>
+        <th >L</th>
+        <th >GF</th>
+        <th >GA</th>
+      </tr>
+    </thead>
+    <tbody  v-for="team in infoTeams" :key="team.name">
+      <tr  v-if="aux.local==team.name||aux.visit==team.name">
+        <td>{{ team.name }}</td>
+        <td>{{ team.points }}</td>
+        <td>{{ team.wins }}</td>
+        <td>{{ team.draws }}</td>
+        <td>{{ team.losses }}</td>
+        <td>{{ team.goalsFor }}</td>
+        <td>{{ team.goalsAgainst }}</td>
+      </tr>
+    </tbody>
+  </v-simple-table>
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>

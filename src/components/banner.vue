@@ -15,6 +15,40 @@
     }
 }
   }
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  let title=document.getElementById("title");
+  let banner=document.getElementById("banner");
+  let logo=document.getElementById("logo");
+
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+
+    title.style.fontSize = "65px";
+    title.style.paddingTop="0px";
+
+    banner.style.background="rgb(27, 52, 97)";
+    banner.style.padding= "10px";
+
+
+    logo.style.height= "80px";
+    logo.style.width= "80px";
+    logo.style.marginLeft="40px";
+  } else {
+    title.style.fontSize = "80px";
+    title.style.paddingTop="5px";
+
+    banner.style.backgroundImage="url(../assets/Images/design2_image1.jpg)";
+    banner.style.padding= "30px 0px";
+    banner.style.backgroundSize="210%";
+    banner.style.backgroundPosition="-210px -25px";
+
+    logo.style.width= "120px";
+    logo.style.height= "120px";
+    logo.style.marginLeft="12px";
+   
+
+  }
+}
 </script>
 
 <style>
@@ -30,14 +64,14 @@
   }
 
 #logo{
-    margin-left: 15px;
+    margin-left: 12px;
     transition: 0.5s;
     height: 120px;
     width: 120px;
 }
 #banner {
   overflow: hidden;
-  background: url(../assets/Images/design2_image1.jpg);
+  background-image: url(../assets/Images/design2_image1.jpg);
   background-size: 210%;
   background-position: -210px -25px;
   padding: 30px 0px;
@@ -47,6 +81,6 @@
   z-index: 99;
   border-radius: 2px;
   display: inline-flex;
-
+  position: fixed;
 }
 </style>
