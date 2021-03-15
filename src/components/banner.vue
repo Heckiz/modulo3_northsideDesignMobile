@@ -23,28 +23,24 @@ function scrollFunction() {
 
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
 
-    title.style.fontSize = "65px";
-    title.style.paddingTop="0px";
+    title.style.fontSize = "40px";
 
-    banner.style.background="rgb(27, 52, 97)";
-    banner.style.padding= "10px";
+    banner.style.padding= "5px";
 
 
-    logo.style.height= "80px";
-    logo.style.width= "80px";
-    logo.style.marginLeft="40px";
+    logo.style.height= "50px";
+    logo.style.width= "50px";
+    logo.style.marginLeft="100px";
+
   } else {
-    title.style.fontSize = "80px";
-    title.style.paddingTop="5px";
+    title.style.fontSize = "60px";
 
-    banner.style.backgroundImage="url(../assets/Images/design2_image1.jpg)";
-    banner.style.padding= "30px 0px";
-    banner.style.backgroundSize="210%";
-    banner.style.backgroundPosition="-210px -25px";
+    banner.style.padding= "10";
+    
+    logo.style.width= "80px";
+    logo.style.height= "80px";
+    logo.style.marginLeft="50px";
 
-    logo.style.width= "120px";
-    logo.style.height= "120px";
-    logo.style.marginLeft="12px";
    
 
   }
@@ -55,26 +51,26 @@ function scrollFunction() {
 #title {
     color: white;
     font-weight: bold;
-    transition: 0.5s;
-    font-size: 80px;
-    padding-top: 5px;
+    transition: 0.15s;
+    font-size: 60px;
     text-decoration: none;
-    margin-left: 20px;
+    text-align: center;
     text-shadow: -3px -3px 2px black,3px 3px 2px blue,4px 4px 2px royalblue,6px 6px rgb(40, 133, 240);
   }
 
 #logo{
-    margin-left: 12px;
-    transition: 0.5s;
-    height: 120px;
-    width: 120px;
+    margin-top: 5px;
+    margin-left: 50px;
+    transition: 0.15s;
+    height: 80px;
+    width: 80px;
 }
 #banner {
+  padding: 10px;
   overflow: hidden;
-  background-image: url(../assets/Images/design2_image1.jpg);
+  background-color: #163358;
   background-size: 210%;
   background-position: -210px -25px;
-  padding: 30px 0px;
   transition: 0.4s;
   width: 100%;
   top: 0;

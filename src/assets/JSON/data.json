@@ -1,9 +1,9 @@
 {   "upcomingEvent":[
-    {     "color":"#5E35B1",
+    {    "color":"#ffa222",
         "date":"September 1",
         "info":"First Game of the Season (Check Game Schedule for details)"
         },
-    {   "color":"#AB47BC",
+    {   "color":"#35902d",
         "date":"August 16",
         "info":"Season Kick-off: Meet the Teams"
         },
@@ -74,130 +74,186 @@
             "goalsAgainst":"14"
         }
     ],
-    "matchOctober":[     
+    "matches":[     
         {   "id": "1",
             "local": "U2",
             "visit": "U5",
-            "date": "10/05",
+            "month":"10", 
+            "day":"05",
             "time": "9:30 a.m.",
-            "location": "Marjorie P Hart"
+            "place": "Marjorie P Hart"
         },
         {   "id": "2",
             "local": "U1",
             "visit": "U6",
-            "date": "10/06",
+            "month":"10", 
+            "day":"06",
             "time": "1:00 p.m.",
-            "location": "South"
+            "place": "South"
         },
         {   "id": "3",
             "local": "U3",
             "visit": "U4",
-            "date": "10/06",
+            "month":"10", 
+            "day":"06",
             "time": "9:30 a.m.",
-            "location": "Howard A Yeager"
+            "place": "Howard A Yeager"
         },
         {   "id": "4",
             "local": "U5",
             "visit": "U1",
-            "date": "10/08",
+            "month":"10", 
+            "day":"08",
             "time": "1:00 p.m.",
-            "location": "Greenbay"
+            "place": "Greenbay"
         },
         {   "id": "5",
             "local": "U6",
             "visit": "U3",
-            "date": "10/20",
+            "month":"10", 
+            "day":"20",
             "time": "9:30 a.m.",
-            "location": "North"
+            "place": "North"
         },
         {   "id": "6",
             "local": "U2",
             "visit": "U4",
-            "date": "10/20",
+            "month":"10", 
+            "day":"20",
             "time": "1:00 p.m.",
-            "location": "Marjorie P Hart"
+            "place": "Marjorie P Hart"
         },
         {   "id": "7",
             "local": "U3",
             "visit": "U1",
-            "date": "10/27",
+            "month":"10", 
+            "day":"27",
             "time": "9:30 a.m.",
-            "location": "AJ Katzenmaier"
+            "place": "AJ Katzenmaier"
         },
         {   "id": "8",
             "local": "U5",
             "visit": "U6",
-            "date": "10/27",
+            "month":"10", 
+            "day":"27",
             "time": "1:00 p.m.",
-            "location": "Howard A Yeager"
+            "place": "Howard A Yeager"
+        },
+        {   "id": "9",
+            "local": "U1",
+            "visit": "U4",
+            "month":"09", 
+            "day":"01",
+            "time": "9:30 a.m.",
+            "place": "AJ Katzenmaier"
+        },
+        {   "id": "10",
+            "local": "U3",
+            "visit": "U2",
+            "month":"09", 
+            "day":"01",
+            "time": "1:00 p.m.",
+            "place": "Greenbay"
+        },
+        {   "id": "11",
+            "local": "U5",
+            "visit": "U6",
+            "month":"09", 
+            "day":"08",
+            "time": "9:30 a.m.",
+            "place": "Howard A Yeager"
+        },
+        {   "id": "12",
+            "local": "U6",
+            "visit": "U1",
+            "month":"09", 
+            "day":"08",
+            "time": "1:00 p.m.",
+            "place": "Marjorie P Hart"
+        },
+        {   "id": "13",
+            "local": "U2",
+            "visit": "U4",
+            "month":"09", 
+            "day":"15",
+            "time": "9:30 a.m.",
+            "place": "North"
+        },
+        {   "id": "14",
+            "local": "U3",
+            "visit": "U5",
+            "month":"09", 
+            "day":"15",
+            "time": "1:00 p.m.",
+            "place": "AJ Katzenmaier"
+        },
+        {   "id": "15",
+            "local": "U1",
+            "visit": "U3",
+            "month":"09", 
+            "day":"22",
+            "time": "9:30 a.m.",
+            "place": "South"
+        },
+        {   "id": "16",
+            "local": "U2",
+            "visit": "U6",
+            "month":"09", 
+            "day":"22",
+            "time": "1:00 p.m.",
+            "place": "Howard A Yeager"
+        },
+        {   "id": "17",
+            "local": "U4",
+            "visit": "U5",
+            "month":"09", 
+            "day":"29",
+            "time": "9:30 a.m.",
+            "place": "Greenbay"
         }
         
     ],
-    "matchSeptember":[     
-        {   "id": "1",
-            "local": "U1",
-            "visit": "U4",
-            "date": "9/01",
-            "time": "9:30 a.m.",
-            "location": "AJ Katzenmaier"
+    "location":[
+        {
+            "id":"1",
+            "name":"AJ Katzenmaier",
+            "address":"24 W. Walton ST., Chicago, IL 60610",
+            "mapURL":"https://goo.gl/maps/eMGTLwhQzTdJdD5E6",
+            "mapEmbed":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.654246110987!2d-87.6312390845582!3d41.90029237922041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24+W+Walton+St%2C+Chicago%2C+IL+60610%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1565557157644!5m2!1ses!2sar"
         },
-        {   "id": "2",
-            "local": "U3",
-            "visit": "U2",
-            "date": "9/01",
-            "time": "1:00 p.m.",
-            "location": "Greenbay"
-        },
-        {   "id": "3",
-            "local": "U5",
-            "visit": "U6",
-            "date": "9/08",
-            "time": "9:30 a.m.",
-            "location": "Howard A Yeager"
-        },
-        {   "id": "4",
-            "local": "U6",
-            "visit": "U1",
-            "date": "9/08",
-            "time": "1:00 p.m.",
-            "location": "Marjorie P Hart"
-        },
-        {   "id": "5",
-            "local": "U2",
-            "visit": "U4",
-            "date": "9/15",
-            "time": "9:30 a.m.",
-            "location": "North"
-        },
-        {   "id": "6",
-            "local": "U3",
-            "visit": "U5",
-            "date": "9/15",
-            "time": "1:00 p.m.",
-            "location": "AJ Katzenmaier"
-        },
-        {   "id": "7",
-            "local": "U1",
-            "visit": "U3",
-            "date": "9/22",
-            "time": "9:30 a.m.",
-            "location": "South"
-        },
-        {   "id": "8",
-            "local": "U2",
-            "visit": "U6",
-            "date": "9/22",
-            "time": "1:00 p.m.",
-            "location": "Howard A Yeager"
-        },
-        {   "id": "9",
-            "local": "U4",
-            "visit": "U5",
-            "date": "9/29",
-            "time": "9:30 a.m.",
-            "location": "Greenbay"
-        }
-        
-    ]
+        { 
+          "id":"2",
+          "name":"Greenbay",
+          "address":"1734 N. Orleans St., Chicago, IL 60614",
+          "mapURL":"https://goo.gl/maps/XSTYiUEAUDn1nxbm6",
+          "mapEmbed":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0258843688616!2d-87.64002798455778!3d41.91380227921926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1565557366603!5m2!1ses!2sar"
+          
+      },
+      {   "id":"3",
+          "name":"Howard A Yeager",
+          "address":"2245 N. Southport Ave., Chicago, IL 60614",
+          "mapURL":"https://goo.gl/maps/QBLGtrXvpHyFXCpk6",
+          "mapEmbed":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.585683085616!2d-87.66511458455746!3d41.92326457921871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1565557429873!5m2!1ses!2sar"
+      },
+      {   "id":"4",
+          "name":"Marjorie P Hart",
+          "address":"2625 N. Orchard St., Chicago, IL 60614",
+          "mapURL":"https://goo.gl/maps/gf5bMHhcutwsn55J8",
+          "mapEmbed":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.291914658432!2d-87.64808628455727!3d41.92957827921814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1565557486810!5m2!1ses!2sar"
+      },
+      {   "id":"5",
+          "name":"North",
+          "address":"1409 N. Ogden Ave., Chicago, IL 60610",
+          "mapURL":"https://goo.gl/maps/HVHDZFoqsifWVj6k6",
+          "mapEmbed":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.337799849213!2d-87.64837698455796!3d41.907096479219874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af0e6ccc3%3A0x26c81c1d557667da!2s1409+N+Ogden+Ave%2C+Chicago%2C+IL+60610%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1565557536396!5m2!1ses!2sar"
+      },
+      {   "id":"6",
+          "name":"South",
+          "address":"2101 N. Fremont St., Chicago, IL 60614",
+          "mapURL":"https://goo.gl/maps/oGSEahEwbiFjmCDt6",
+          "mapEmbed":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7479505250676!2d-87.65355538455758!3d41.9197767792189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2sar!4v1565557597754!5m2!1ses!2sar"
+      }
+
+  ]
     
 }

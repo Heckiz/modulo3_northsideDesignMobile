@@ -11,7 +11,10 @@
     <v-btn to="/gameinfo" style="height:max-content;">
       <v-icon x-large>calendar_today</v-icon>
     </v-btn>
- <v-btn to="/chat" style="height:max-content;">
+    <v-btn to="/gallery" style="height:max-content;">
+      <v-icon x-large>insert_photo</v-icon>
+    </v-btn>
+     <v-btn to="/usernameLogin" style="height:max-content;">
       <v-icon x-large>comment</v-icon>
     </v-btn>
    
@@ -42,6 +45,7 @@ export default {
     color:seagreen;
     font-family: 'Times New Roman', Times, serif; 
     z-index: 100;
+    border-top: 10px solid #163358;
     }
 
 
