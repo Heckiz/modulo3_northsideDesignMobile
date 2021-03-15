@@ -1,4 +1,4 @@
-# my-app
+# Northside Design Mobile 
 
 ## Project setup
 ```
@@ -10,20 +10,5 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Demo
+[fullstack-5aec8.firebaseapp.com/](https://fullstack-5aec8.firebaseapp.com/).
